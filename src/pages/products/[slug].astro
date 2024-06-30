@@ -1,0 +1,24 @@
+---
+{/* Example with Static Site Generation (SSG) Mode */}
+
+import { flotiq } from "../../lib/flotiq";
+import type { Product } from "../../../flotiqApi/src";
+
+export async function getStaticPaths() {
+  const productsResponse = await flotiq.ProductAPI.list();
+  return productsResponse?.data?.map((product) => ({
+    params: { slug: product.slug },
+    props: product
+  })) || []
+}
+
+const product: Product = Astro.props;
+---
+<html lang="en">
+  <title>{product.name}</title>
+  <body>
+    <h1>{product.name}</h1>
+    <div>{product.price}</div>
+    <div set:html={product.description}/>
+  </body>
+</html>
