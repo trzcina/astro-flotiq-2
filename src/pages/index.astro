@@ -1,16 +1,19 @@
 ---
+import { flotiq } from "../lib/flotiq";
 
+const products = await flotiq.ProductAPI.list();
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
+	<title>Products</title>
 	<body>
-		<h1>Astro</h1>
+		<h1>My products list</h1>
+		{products?.data?.map((product) => (
+			<section>
+				<h2>{ product.name }</h2>
+				<div>{ product.price }</div>
+				<div set:html={product.description}/>
+			</section>
+		))}
 	</body>
 </html>
