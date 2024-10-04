@@ -1,0 +1,33 @@
+---
+{/* Example with Server Side Rendering (SSR) Mode; Uncomment ./astro.config.mjs settings */}
+
+import { type Product } from "../../../flotiqApi/src";
+import { flotiq } from "../../lib/flotiq";
+
+const { slug } = Astro.params;
+let product: Product;
+
+const findProductsResponse = await flotiq.ProductAPI.list({
+  filters: JSON.stringify({
+    slug: {
+      type: 'equals',
+      filter: slug,
+    }
+  }),
+  limit: 1
+});
+
+if (findProductsResponse?.data?.[0]) {
+  product = findProductsResponse?.data?.[0]
+} else {
+  return Astro.redirect('/404');
+}
+---
+<html lang="en">
+  <title>{product.name}</title>
+  <body>
+    <h1>{product.name}</h1>
+    <div>{product.price}</div>
+    <div set:html={product.description}/>
+  </body>
+</html>

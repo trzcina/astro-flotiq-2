@@ -1,0 +1,514 @@
+
+> astro-flotiq-2@0.0.1 build
+> astro check && astro build
+
+18:06:43 [types] Added src/env.d.ts type declarations.
+18:06:43 Types generated 110ms
+18:06:43 [check] Getting diagnostics for Astro files in /home/michal/projects/astro-flotiq-2...
+[96mflotiqApi/src/index.ts[0m:[93m10[0m:[93m10[0m - [91merror[0m[90m ts(1484): [0m'RequestContext' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+
+[7m10[0m import { RequestContext }  from "./runtime";
+[7m  [0m [91m         ~~~~~~~~~~~~~~[0m
+
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m67[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'Model404ResponseToJSON' is declared but its value is never read.
+
+[7m67[0m     Model404ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m66[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'Model404ResponseFromJSON' is declared but its value is never read.
+
+[7m66[0m     Model404ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m65[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'Model403ResponseToJSON' is declared but its value is never read.
+
+[7m65[0m     Model403ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m64[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'Model403ResponseFromJSON' is declared but its value is never read.
+
+[7m64[0m     Model403ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m63[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'Model401ResponseToJSON' is declared but its value is never read.
+
+[7m63[0m     Model401ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m62[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'Model401ResponseFromJSON' is declared but its value is never read.
+
+[7m62[0m     Model401ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m60[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaWithoutRequiredFromJSON' is declared but its value is never read.
+
+[7m60[0m     MediaWithoutRequiredFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m58[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaWithoutInternalFromJSON' is declared but its value is never read.
+
+[7m58[0m     MediaWithoutInternalFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m57[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaVersionsListToJSON' is declared but its value is never read.
+
+[7m57[0m     MediaVersionsListToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m55[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaList400ResponseToJSON' is declared but its value is never read.
+
+[7m55[0m     MediaList400ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m54[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaList400ResponseFromJSON' is declared but its value is never read.
+
+[7m54[0m     MediaList400ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m53[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaListToJSON' is declared but its value is never read.
+
+[7m53[0m     MediaListToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m51[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaGetRemoved400ResponseToJSON' is declared but its value is never read.
+
+[7m51[0m     MediaGetRemoved400ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m50[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaGetRemoved400ResponseFromJSON' is declared but its value is never read.
+
+[7m50[0m     MediaGetRemoved400ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m49[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaDelete400ResponseToJSON' is declared but its value is never read.
+
+[7m49[0m     MediaDelete400ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m48[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaDelete400ResponseFromJSON' is declared but its value is never read.
+
+[7m48[0m     MediaDelete400ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m47[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaCreate400ResponseToJSON' is declared but its value is never read.
+
+[7m47[0m     MediaCreate400ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m46[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaCreate400ResponseFromJSON' is declared but its value is never read.
+
+[7m46[0m     MediaCreate400ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m45[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaBatchDelete400ResponseToJSON' is declared but its value is never read.
+
+[7m45[0m     MediaBatchDelete400ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m44[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaBatchDelete400ResponseFromJSON' is declared but its value is never read.
+
+[7m44[0m     MediaBatchDelete400ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m43[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaBatchDelete200ResponseToJSON' is declared but its value is never read.
+
+[7m43[0m     MediaBatchDelete200ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m41[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaToJSON' is declared but its value is never read.
+
+[7m41[0m     MediaToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m39[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'BatchResponseSuccessToJSON' is declared but its value is never read.
+
+[7m39[0m     BatchResponseSuccessToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m37[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'BatchResponseErrorToJSON' is declared but its value is never read.
+
+[7m37[0m     BatchResponseErrorToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m36[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'BatchResponseErrorFromJSON' is declared but its value is never read.
+
+[7m36[0m     BatchResponseErrorFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m33[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'Model404Response' is declared but never used.
+
+[7m33[0m   Model404Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m32[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'Model403Response' is declared but never used.
+
+[7m32[0m   Model403Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m31[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'Model401Response' is declared but never used.
+
+[7m31[0m   Model401Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m27[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'MediaList400Response' is declared but never used.
+
+[7m27[0m   MediaList400Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m25[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'MediaGetRemoved400Response' is declared but never used.
+
+[7m25[0m   MediaGetRemoved400Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m24[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'MediaDelete400Response' is declared but never used.
+
+[7m24[0m   MediaDelete400Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m23[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'MediaCreate400Response' is declared but never used.
+
+[7m23[0m   MediaCreate400Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m22[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'MediaBatchDelete400Response' is declared but never used.
+
+[7m22[0m   MediaBatchDelete400Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/MediaInternalAPI.ts[0m:[93m18[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'BatchResponseError' is declared but never used.
+
+[7m18[0m   BatchResponseError,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~~~[0m
+
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m66[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'ProductWithoutRequiredFromJSON' is declared but its value is never read.
+
+[7m66[0m     ProductWithoutRequiredFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m64[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'ProductWithoutInternalFromJSON' is declared but its value is never read.
+
+[7m64[0m     ProductWithoutInternalFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m63[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'ProductVersionsListToJSON' is declared but its value is never read.
+
+[7m63[0m     ProductVersionsListToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m61[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'ProductListToJSON' is declared but its value is never read.
+
+[7m61[0m     ProductListToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m59[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'ProductCreate400ResponseToJSON' is declared but its value is never read.
+
+[7m59[0m     ProductCreate400ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m58[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'ProductCreate400ResponseFromJSON' is declared but its value is never read.
+
+[7m58[0m     ProductCreate400ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m57[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'ProductBatchDelete400ResponseToJSON' is declared but its value is never read.
+
+[7m57[0m     ProductBatchDelete400ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m56[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'ProductBatchDelete400ResponseFromJSON' is declared but its value is never read.
+
+[7m56[0m     ProductBatchDelete400ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m55[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'ProductToJSON' is declared but its value is never read.
+
+[7m55[0m     ProductToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m53[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'Model404ResponseToJSON' is declared but its value is never read.
+
+[7m53[0m     Model404ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m52[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'Model404ResponseFromJSON' is declared but its value is never read.
+
+[7m52[0m     Model404ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m51[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'Model403ResponseToJSON' is declared but its value is never read.
+
+[7m51[0m     Model403ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m50[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'Model403ResponseFromJSON' is declared but its value is never read.
+
+[7m50[0m     Model403ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m49[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'Model401ResponseToJSON' is declared but its value is never read.
+
+[7m49[0m     Model401ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m48[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'Model401ResponseFromJSON' is declared but its value is never read.
+
+[7m48[0m     Model401ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m47[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaList400ResponseToJSON' is declared but its value is never read.
+
+[7m47[0m     MediaList400ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m46[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaList400ResponseFromJSON' is declared but its value is never read.
+
+[7m46[0m     MediaList400ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m45[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaGetRemoved400ResponseToJSON' is declared but its value is never read.
+
+[7m45[0m     MediaGetRemoved400ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m44[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaGetRemoved400ResponseFromJSON' is declared but its value is never read.
+
+[7m44[0m     MediaGetRemoved400ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m43[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaDelete400ResponseToJSON' is declared but its value is never read.
+
+[7m43[0m     MediaDelete400ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m42[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaDelete400ResponseFromJSON' is declared but its value is never read.
+
+[7m42[0m     MediaDelete400ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m41[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaBatchDelete200ResponseToJSON' is declared but its value is never read.
+
+[7m41[0m     MediaBatchDelete200ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m39[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'BatchResponseSuccessToJSON' is declared but its value is never read.
+
+[7m39[0m     BatchResponseSuccessToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m37[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'BatchResponseErrorToJSON' is declared but its value is never read.
+
+[7m37[0m     BatchResponseErrorToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m36[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'BatchResponseErrorFromJSON' is declared but its value is never read.
+
+[7m36[0m     BatchResponseErrorFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m29[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'ProductCreate400Response' is declared but never used.
+
+[7m29[0m   ProductCreate400Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m28[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'ProductBatchDelete400Response' is declared but never used.
+
+[7m28[0m   ProductBatchDelete400Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m26[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'Model404Response' is declared but never used.
+
+[7m26[0m   Model404Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m25[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'Model403Response' is declared but never used.
+
+[7m25[0m   Model403Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m24[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'Model401Response' is declared but never used.
+
+[7m24[0m   Model401Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m23[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'MediaList400Response' is declared but never used.
+
+[7m23[0m   MediaList400Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m22[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'MediaGetRemoved400Response' is declared but never used.
+
+[7m22[0m   MediaGetRemoved400Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m21[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'MediaDelete400Response' is declared but never used.
+
+[7m21[0m   MediaDelete400Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/ProductAPI.ts[0m:[93m18[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'BatchResponseError' is declared but never used.
+
+[7m18[0m   BatchResponseError,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~~~[0m
+
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m66[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'TagWithoutRequiredFromJSON' is declared but its value is never read.
+
+[7m66[0m     TagWithoutRequiredFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m64[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'TagWithoutInternalFromJSON' is declared but its value is never read.
+
+[7m64[0m     TagWithoutInternalFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m63[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'TagVersionsListToJSON' is declared but its value is never read.
+
+[7m63[0m     TagVersionsListToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m61[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'TagListToJSON' is declared but its value is never read.
+
+[7m61[0m     TagListToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m59[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'TagCreate400ResponseToJSON' is declared but its value is never read.
+
+[7m59[0m     TagCreate400ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m58[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'TagCreate400ResponseFromJSON' is declared but its value is never read.
+
+[7m58[0m     TagCreate400ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m57[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'TagBatchDelete400ResponseToJSON' is declared but its value is never read.
+
+[7m57[0m     TagBatchDelete400ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m56[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'TagBatchDelete400ResponseFromJSON' is declared but its value is never read.
+
+[7m56[0m     TagBatchDelete400ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m55[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'TagToJSON' is declared but its value is never read.
+
+[7m55[0m     TagToJSON,
+[7m  [0m [93m    ~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m53[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'Model404ResponseToJSON' is declared but its value is never read.
+
+[7m53[0m     Model404ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m52[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'Model404ResponseFromJSON' is declared but its value is never read.
+
+[7m52[0m     Model404ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m51[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'Model403ResponseToJSON' is declared but its value is never read.
+
+[7m51[0m     Model403ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m50[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'Model403ResponseFromJSON' is declared but its value is never read.
+
+[7m50[0m     Model403ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m49[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'Model401ResponseToJSON' is declared but its value is never read.
+
+[7m49[0m     Model401ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m48[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'Model401ResponseFromJSON' is declared but its value is never read.
+
+[7m48[0m     Model401ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m47[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaList400ResponseToJSON' is declared but its value is never read.
+
+[7m47[0m     MediaList400ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m46[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaList400ResponseFromJSON' is declared but its value is never read.
+
+[7m46[0m     MediaList400ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m45[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaGetRemoved400ResponseToJSON' is declared but its value is never read.
+
+[7m45[0m     MediaGetRemoved400ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m44[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaGetRemoved400ResponseFromJSON' is declared but its value is never read.
+
+[7m44[0m     MediaGetRemoved400ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m43[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaDelete400ResponseToJSON' is declared but its value is never read.
+
+[7m43[0m     MediaDelete400ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m42[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaDelete400ResponseFromJSON' is declared but its value is never read.
+
+[7m42[0m     MediaDelete400ResponseFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m41[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'MediaBatchDelete200ResponseToJSON' is declared but its value is never read.
+
+[7m41[0m     MediaBatchDelete200ResponseToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m39[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'BatchResponseSuccessToJSON' is declared but its value is never read.
+
+[7m39[0m     BatchResponseSuccessToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m37[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'BatchResponseErrorToJSON' is declared but its value is never read.
+
+[7m37[0m     BatchResponseErrorToJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m36[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'BatchResponseErrorFromJSON' is declared but its value is never read.
+
+[7m36[0m     BatchResponseErrorFromJSON,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m29[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'TagCreate400Response' is declared but never used.
+
+[7m29[0m   TagCreate400Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m28[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'TagBatchDelete400Response' is declared but never used.
+
+[7m28[0m   TagBatchDelete400Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m26[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'Model404Response' is declared but never used.
+
+[7m26[0m   Model404Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m25[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'Model403Response' is declared but never used.
+
+[7m25[0m   Model403Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m24[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'Model401Response' is declared but never used.
+
+[7m24[0m   Model401Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m23[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'MediaList400Response' is declared but never used.
+
+[7m23[0m   MediaList400Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m22[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'MediaGetRemoved400Response' is declared but never used.
+
+[7m22[0m   MediaGetRemoved400Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m21[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'MediaDelete400Response' is declared but never used.
+
+[7m21[0m   MediaDelete400Response,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/apis/TagInternalAPI.ts[0m:[93m18[0m:[93m3[0m - [93mwarning[0m[90m ts(6196): [0m'BatchResponseError' is declared but never used.
+
+[7m18[0m   BatchResponseError,
+[7m  [0m [93m  ~~~~~~~~~~~~~~~~~~[0m
+
+[96mflotiqApi/src/models/AbstractContentTypeSchemaDefinition.ts[0m:[93m64[0m:[93m77[0m - [93mwarning[0m[90m ts(6133): [0m'ignoreDiscriminator' is declared but its value is never read.
+
+[7m64[0m export function AbstractContentTypeSchemaDefinitionFromJSONTyped(json: any, ignoreDiscriminator: boolean): AbstractContentTypeSchemaDefinition  {
+[7m  [0m [93m                                                                            ~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/models/AbstractContentTypeSchemaDefinition.ts[0m:[93m19[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'AbstractContentTypeSchemaDefinitionInternalFromJSONTyped' is declared but its value is never read.
+
+[7m19[0m     AbstractContentTypeSchemaDefinitionInternalFromJSONTyped,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/models/AbstractContentTypeSchemaDefinition.ts[0m:[93m15[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'mapValues' is declared but its value is never read.
+
+[7m15[0m import { mapValues } from '../runtime';
+[7m  [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mflotiqApi/src/models/AbstractContentTypeSchemaDefinitionInternal.ts[0m:[93m109[0m:[93m85[0m - [93mwarning[0m[90m ts(6133): [0m'ignoreDiscriminator' is declared but its value is never read.
+
+[7m109[0m export function AbstractContentTypeSchemaDefinitionInternalFromJSONTyped(json: any, ignoreDiscriminator: boolean): AbstractContentTypeSchemaDefinitionInternal  {
+[7m   [0m [93m                                                                                    ~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/models/AbstractContentTypeSchemaDefinitionInternal.ts[0m:[93m15[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'mapValues' is declared but its value is never read.
+
+[7m15[0m import { mapValues } from '../runtime';
+[7m  [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mflotiqApi/src/models/AbstractContentTypeSchemaDefinitionWithoutInternal.ts[0m:[93m50[0m:[93m92[0m - [93mwarning[0m[90m ts(6133): [0m'ignoreDiscriminator' is declared but its value is never read.
+
+[7m50[0m export function AbstractContentTypeSchemaDefinitionWithoutInternalFromJSONTyped(json: any, ignoreDiscriminator: boolean): AbstractContentTypeSchemaDefinitionWithoutInternal  {
+[7m  [0m [93m                                                                                           ~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/models/AbstractContentTypeSchemaDefinitionWithoutInternal.ts[0m:[93m15[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'mapValues' is declared but its value is never read.
+
+[7m15[0m import { mapValues } from '../runtime';
+[7m  [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mflotiqApi/src/models/BatchResponseError.ts[0m:[93m77[0m:[93m60[0m - [93mwarning[0m[90m ts(6133): [0m'ignoreDiscriminator' is declared but its value is never read.
+
+[7m77[0m export function BatchResponseErrorFromJSONTyped(json: any, ignoreDiscriminator: boolean): BatchResponseError  {
+[7m  [0m [93m                                                           ~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/models/BatchResponseError.ts[0m:[93m69[0m:[93m46[0m - [93mwarning[0m[90m ts(6133): [0m'value' is declared but its value is never read.
+
+[7m69[0m export function instanceOfBatchResponseError(value: object): boolean {
+[7m  [0m [93m                                             ~~~~~[0m
+[96mflotiqApi/src/models/BatchResponseError.ts[0m:[93m19[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'BatchResponseErrorErrorsInnerFromJSONTyped' is declared but its value is never read.
+
+[7m19[0m     BatchResponseErrorErrorsInnerFromJSONTyped,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/models/BatchResponseError.ts[0m:[93m15[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'mapValues' is declared but its value is never read.
+
+[7m15[0m import { mapValues } from '../runtime';
+[7m  [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mflotiqApi/src/models/BatchResponseErrorErrorsInner.ts[0m:[93m63[0m:[93m71[0m - [93mwarning[0m[90m ts(6133): [0m'ignoreDiscriminator' is declared but its value is never read.
+
+[7m63[0m export function BatchResponseErrorErrorsInnerFromJSONTyped(json: any, ignoreDiscriminator: boolean): BatchResponseErrorErrorsInner  {
+[7m  [0m [93m                                                                      ~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/models/BatchResponseErrorErrorsInner.ts[0m:[93m55[0m:[93m57[0m - [93mwarning[0m[90m ts(6133): [0m'value' is declared but its value is never read.
+
+[7m55[0m export function instanceOfBatchResponseErrorErrorsInner(value: object): boolean {
+[7m  [0m [93m                                                        ~~~~~[0m
+[96mflotiqApi/src/models/BatchResponseErrorErrorsInner.ts[0m:[93m19[0m:[93m5[0m - [93mwarning[0m[90m ts(6133): [0m'BatchResponseErrorErrorsInnerErrorsFromJSONTyped' is declared but its value is never read.
+
+[7m19[0m     BatchResponseErrorErrorsInnerErrorsFromJSONTyped,
+[7m  [0m [93m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/models/BatchResponseErrorErrorsInner.ts[0m:[93m15[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'mapValues' is declared but its value is never read.
+
+[7m15[0m import { mapValues } from '../runtime';
+[7m  [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mflotiqApi/src/models/BatchResponseErrorErrorsInnerErrors.ts[0m:[93m49[0m:[93m77[0m - [93mwarning[0m[90m ts(6133): [0m'ignoreDiscriminator' is declared but its value is never read.
+
+[7m49[0m export function BatchResponseErrorErrorsInnerErrorsFromJSONTyped(json: any, ignoreDiscriminator: boolean): BatchResponseErrorErrorsInnerErrors  {
+[7m  [0m [93m                                                                            ~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/models/BatchResponseErrorErrorsInnerErrors.ts[0m:[93m41[0m:[93m63[0m - [93mwarning[0m[90m ts(6133): [0m'value' is declared but its value is never read.
+
+[7m41[0m export function instanceOfBatchResponseErrorErrorsInnerErrors(value: object): boolean {
+[7m  [0m [93m                                                              ~~~~~[0m
+[96mflotiqApi/src/models/BatchResponseErrorErrorsInnerErrors.ts[0m:[93m15[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'mapValues' is declared but its value is never read.
+
+[7m15[0m import { mapValues } from '../runtime';
+[7m  [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mflotiqApi/src/models/BatchResponseSuccess.ts[0m:[93m70[0m:[93m62[0m - [93mwarning[0m[90m ts(6133): [0m'ignoreDiscriminator' is declared but its value is never read.
+
+[7m70[0m export function BatchResponseSuccessFromJSONTyped(json: any, ignoreDiscriminator: boolean): BatchResponseSuccess  {
+[7m  [0m [93m                                                             ~~~~~~~~~~~~~~~~~~~[0m
+[96mflotiqApi/src/models/BatchResponseSuccess.ts[0m:[93m62[0m:[93m48[0m - [93mwarning[0m[90m ts(6133): [0m'value' is declared but its value is never read.
+
+[7m62[0m export function instanceOfBatchResponseSuccess(value: object): boolean {
+[7m  [0m [93m                                               ~~~~~[0m
+[96mflotiqApi/src/models/BatchResponseSuccess.ts[0m:[93m15[0m:[93m1[0m - [93mwarning[0m[90m ts(6133): [0m'mapValues' is declared but its value is never read.
+
+[7m15[0m import { mapValues } from '../runtime';
+[7m  [0m [93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
